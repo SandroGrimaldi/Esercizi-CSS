@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+#card{
+    width:450px;
+    margin-left: 15px;
+}
+
+
+section{
+    font-size:20px;
+    border:1.5px solid rgba(180, 175, 175, 0.438);
+    max-width:32ch;
+    padding:10px;
+}
+
+a{ 
+    color:rgb(37, 92, 211)
+    
+}
+#img{
+    width:100%;
+    height:auto;
+    border:1.5px solid black;
+    max-width:1500px;
+    max-height:967px;
+    background-color:grey;
+    color:white;
+}
+#card_links{
+    padding-top:20px;
+    padding-bottom:20px;
+}
