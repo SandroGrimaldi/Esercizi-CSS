@@ -1,0 +1,33 @@
+aside {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    color: #2b2b2b;
+    flex: 1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2b2bb2;
+    transition: 0.3s ease;
+}
+
+.logo{
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.avatar{
+    max-height: 200px;
+    object-fit: contain;
+   }
