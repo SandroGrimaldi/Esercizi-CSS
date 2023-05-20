@@ -1,37 +1,48 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     
 }
 
-#card{
+.container{
     width:450px;
+    margin-top: 15px;
     margin-left: 15px;
+    padding:0;
+    border:3px solid rgba(180, 175, 175, 0.438);
+    border-radius:2%
 }
 
-
-section{
+div{
     font-size:20px;
-    border:1.5px solid rgba(180, 175, 175, 0.438);
-    max-width:32ch;
+    border:3px solid rgba(180, 175, 175, 0.438);
     padding:10px;
 }
 
 a{ 
-    color:rgb(37, 92, 211)
+    color:rgb(37, 92, 211);
+
     
 }
+
+#figure{
+    padding:0;
+}
+
 #img{
     width:100%;
     height:auto;
-    border:1.5px solid black;
-    max-width:1500px;
-    max-height:967px;
+    border-top-left-radius:3% ;
+    border-top-right-radius:3% ;
     background-color:grey;
     color:white;
+   
 }
+
 #card_links{
     padding-top:20px;
     padding-bottom:20px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
