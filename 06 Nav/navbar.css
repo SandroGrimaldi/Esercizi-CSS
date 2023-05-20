@@ -90,3 +90,21 @@ form > button{
     display: block; 
     position: absolute;
   } 
+
+ #hamburger_menu {
+    width: 32px;
+    display: none;
+  }
+  
+  @media (max-width: 768px ) {
+    #navbar_list, form {
+      display: none;
+    }
+    #hamburger_menu {
+      display:block;
+    }
+    nav {
+      justify-content: space-between;
+    }
+  }
+  
