@@ -1,23 +1,18 @@
 body {
-    display:grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(4,1fr);
-    grid-template-areas:
-    "green-section green-section green-section green-section green-section"
-    "yellow-section yellow-section red-section red-section blue-section"
-    "yellow-section yellow-section red-section red-section blue-section"
-    "orange-section orange-section orange-section orange-section blue-section";
-    
-    grid-gap: 30px;
-    
-
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:  
+      'green-section green-section green-section'
+        'yellow-section red-section blue-section'
+        'orange-section orange-section blue-section';
+    gap:30px;
 }
 
 #green {
     grid-area: green-section;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 
 #yellow {
@@ -32,6 +27,7 @@ body {
     grid-area: orange-section;
     margin: 0;
     padding: 0;
+   
 }
 
 #red {
