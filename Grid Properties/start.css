@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:  
+      'green-section green-section green-section'
+        'yellow-section red-section blue-section'
+        'orange-section orange-section blue-section';
+    gap:30px;
+}
+
+#green {
+    grid-area: green-section;
+    margin: 0;
+    padding: 0; 
+}
+
+#yellow {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area: yellow-section;
+    margin: 0;
+    padding: 0;
+}
+
+#orange {
+    grid-area: orange-section;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#red {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area: red-section;
+    margin: 0;
+    padding: 0;
+}
+
+#blue {
+    grid-area: blue-section;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: grid;
+    grid-template-areas:
+    "1 2"
+    "3 4"
+}
+
+li {
+    width:50px;
+    height:25px;
+}
+
+p {
+    padding:30px;
+}

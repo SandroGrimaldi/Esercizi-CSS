@@ -1,14 +1,23 @@
+body{
+    margin:0;
+    height:100vh;    
+}
 aside {
     width: 200px;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 0;
 }
 
-ul{
-    list-style-type:none;
+.links{
+    list-style-type: none;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 a{
@@ -23,11 +32,11 @@ a:hover{
 }
 
 .logo{
-    max-height: 200px;
+    max-width: 200px;
     object-fit: contain;
 }
 
 .avatar{
-    max-height: 200px;
+    max-width: 200px;
     object-fit: contain;
    }
