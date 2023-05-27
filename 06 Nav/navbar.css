@@ -61,6 +61,7 @@ a, #dropdown {
 } 
 #search:hover{
     border-color:aqua;
+    transition: all 0.5s ease;
 }
 
 #searchbutton{
@@ -75,6 +76,7 @@ a, #dropdown {
 #searchbutton:hover{
   color:white;
   border-color:white;
+  transition: all 0.5s ease;
 }
 
 .disabled{
